@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import Image from "../../atoms/Image";
 import Button from "../../atoms/Button";
 import Popup from "../../molecules/Popup";
-import style from './styles.css'
 
 type Props = {
     size: string,
@@ -43,13 +42,7 @@ const PlayerInfo = (props: Props): React.Element<*> => {
                     ))}
                 </div>
             </div>
-            <div>
-
-
-            </div>
-
         </div>
-
     )
 };
 export default PlayerInfo

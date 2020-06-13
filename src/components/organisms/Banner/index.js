@@ -1,7 +1,4 @@
-import React, {useEffect, useState} from "react";
-import Image from "../../atoms/Image";
-import Button from "../../atoms/Button";
-import Popup from "../../molecules/Popup";
+import React from "react";
 
 type Props = {
 }

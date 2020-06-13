@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import PlayerInfo from "../../organisms/PlayerInfo";
 import playerJson from "../../../data/playerlist.json"
 import Banner from "../../organisms/Banner";
