@@ -1,5 +1,7 @@
-import React from "react";
+import React, {useEffect} from "react";
 import PlayerInfo from "../../organisms/PlayerInfo";
+import playerJson from "../../../data/playerlist.json"
+import Banner from "../../organisms/Banner";
 
 type Props = {
     size: string,
@@ -10,6 +12,11 @@ type Props = {
 }
 
 const Player = (props: Props): React.Element<*> => {
-    return (<PlayerInfo></PlayerInfo>)
+    let data = [];
+    return (
+        <div>
+            <Banner/>
+            <PlayerInfo data={playerJson} className="gapBtwBanner"></PlayerInfo>
+        </div>)
 };
 export default Player
